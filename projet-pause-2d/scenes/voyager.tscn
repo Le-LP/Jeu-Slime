@@ -6,6 +6,7 @@
 radius = 28.01785
 
 [sub_resource type="SystemFont" id="SystemFont_8ljy2"]
+subpixel_positioning = 0
 
 [sub_resource type="LabelSettings" id="LabelSettings_hvmgp"]
 font = SubResource("SystemFont_8ljy2")
@@ -21,6 +22,7 @@ script = ExtResource("1_8ljy2")
 shape = SubResource("CircleShape2D_v4s4s")
 
 [node name="Label" type="Label" parent="."]
+visible = false
 texture_filter = 1
 offset_left = 5.0
 offset_top = -69.0
